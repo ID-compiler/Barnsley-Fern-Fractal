@@ -35,19 +35,19 @@ y_new = c*x + d*y + f
 
 I enhanced the original Barnsley Fern by modifying key transformation parameters to create a more visually appealing and realistic fern structure:
 
-### 🔹 Transformation 1: Stem (1% probability)
+###  Transformation 1: Stem (1% probability)
 - **Vertical scaling 'd'**: 0.16 → **0.25** (+56% increase)
 - **All others (a,b,c,e,f)**: Remained **zero**
 - **Result**: Taller, more prominent central stem
 
-### 🔹 Transformation 2: Main Leaflet (85% probability)
+###  Transformation 2: Main Leaflet (85% probability)
 - **Curvature 'b'**: 0.02 → **0.08** (+300% increase)
 - **Curvature 'c'**: -0.02 → **-0.08** (+300% increase)
 - **Scaling 'a' & 'd'**: 0.87 → **0.80** (-8% adjustment)
 - **Vertical shift 'f'**: 1.6 → **1.8** (+12.5% increase)
 - **Result**: More graceful curvature and enhanced structure in main leaf
 
-### 🔹 Transformation 3: Left Leaflet (7% probability)
+###  Transformation 3: Left Leaflet (7% probability)
 - **a**: 0.20 → **0.30** (+50% increase)
 - **b**: -0.26 → **-0.35** (+35% increase)
 - **c**: 0.23 → **0.35** (+52% increase)
@@ -55,7 +55,7 @@ I enhanced the original Barnsley Fern by modifying key transformation parameters
 - **f**: 1.6 → **1.8** (+12.5% increase)
 - **Result**: Sharper and more prominent left leaflets
 
-### 🔹 Transformation 4: Right Leaflet (7% probability)
+###  Transformation 4: Right Leaflet (7% probability)
 - **a**: -0.15 → **-0.25** (+67% increase)
 - **b**: 0.28 → **0.35** (+25% increase)
 - **c**: 0.26 → **0.35** (+35% increase)
@@ -80,7 +80,7 @@ python barnsley_fern.py
 - **Display**: Interactive matplotlib visualization
 - **File**: High-resolution PNG saved as `barnsley_fern_fractal.png`
 
-## 📊Technical Specifications
+## Technical Specifications
 
 | Feature | Specification |
 |---------|---------------|
