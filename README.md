@@ -105,4 +105,3 @@ python barnsley_fern.py
 
 *"Mathematics is the language in which God has written the universe."* - Galileo Galilei
 
-**Created with ❤️ and mathematical precision**
